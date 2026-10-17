@@ -1,0 +1,6 @@
+# Integrity pins require the shipped runtime files to stay byte-identical.
+BO6_Personal_Progress/** -text
+scripts/** -text
+tests/** -text
+*.md text eol=lf
+*.yml text eol=lf

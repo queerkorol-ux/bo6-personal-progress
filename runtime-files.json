@@ -1,0 +1,68 @@
+{
+  "Files": [
+    {
+      "Path": "BO6_Personal_Progress.ps1",
+      "SHA256": "41223b26c04ebcdda2a9f4049638ba1d54bdbc20c17f5e9ef5ff6b8934c3f13e"
+    },
+    {
+      "Path": "Run_BO6_Personal_Progress.cmd",
+      "SHA256": "73c0904d17adeeca277cde40af0aebc1b092e36ac286ea3687225bdbde4bdf94"
+    },
+    {
+      "Path": "Run_BO6_Personal_Progress.exe.config",
+      "SHA256": "b9ab302adaf2e4d8759faf7c16f7d58ea8d968a4a0da59b734e9e4423437f94e"
+    },
+    {
+      "Path": "launcher_source/Launcher.cs",
+      "SHA256": "de0d8d807f9c618e8071ff628946b49695fd367b472878e3948d80969ca5cc53"
+    },
+    {
+      "Path": "launcher_source/Launcher.manifest",
+      "SHA256": "6f0ac409fb33e6ef67a7bf05d846af2090f52b0632f10ca8ac07a355f210ebe8"
+    },
+    {
+      "Path": "launcher_source/Start_From_Exe.ps1",
+      "SHA256": "d17a87d747fa531f488cb168419b9697318b10b7885a955a04a1eb8e2e213536"
+    },
+    {
+      "Path": "patch-spec.json",
+      "SHA256": "40e62f7eab7fa5a8f4e03eb0dc106f8ccf3fd3ec64488de0cef0a1d3e5e73800"
+    },
+    {
+      "Path": "source/CaptionFixture.cs",
+      "SHA256": "7f6d8c6626673b725d7dd5baf8f6384d12b2088be400b539a83c1e93fa71ceac"
+    },
+    {
+      "Path": "source/CaptionNativePreflight.cs",
+      "SHA256": "04583a4831d370f689959d87c062e7b093bce24b8ad676e307cc2352078aded1"
+    },
+    {
+      "Path": "source/CaptionTimeout.cs",
+      "SHA256": "296c3bcf30c9de6150ddbec36fd8c5c52d71cc2ea8eda8bc69b9b5006bac4e40"
+    },
+    {
+      "Path": "source/CheckpointBridge.cs",
+      "SHA256": "f12eaee03db18010354f40c9e1e790f7d95450918c02577e94ea734ebe028030"
+    },
+    {
+      "Path": "source/Preflight_Process.ps1",
+      "SHA256": "e2a86aee0c24534cd2f1559e951597db264ad4d8a208a66c07aca5c0e2cc8eed"
+    },
+    {
+      "Path": "source/Progression.cs",
+      "SHA256": "739306bcf2f6b3231883f38961f927d3dc7d5516890dcf3d15243bf3dec431e8"
+    },
+    {
+      "Path": "source/Run_Preflight.ps1",
+      "SHA256": "be20757ee872d1dbf3e6ca7ebd0047ba38f3036e7d0cd4501c92229c79e4751b"
+    },
+    {
+      "Path": "source/SelfTest.cs",
+      "SHA256": "25049c52fc1af092680fdc9e884a020dfc088bf37ab816bf8516cb412a1f507f"
+    },
+    {
+      "Path": "source/StartupProgression.cs",
+      "SHA256": "61da92ad7bc7d01dda8f154588cab9216f4b23a79fad2f9a9e9cbac77e9d763c"
+    }
+  ]
+}

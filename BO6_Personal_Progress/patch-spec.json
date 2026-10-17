@@ -1,0 +1,160 @@
+{
+  "Version": "personal-progress-0.2.4-caption-timeout",
+  "ExeSHA256": "18360ffef4f9dccd2f16106a8afe5111d3bf2fa5ace9430f9e4b28e9af6342d6",
+  "Guards": [
+    {
+      "Name": "PushAutoSaveGame",
+      "Rva": 101437680,
+      "Size": 459,
+      "SHA256": "24564f21a3e6b598caacda50836d368100a4e5524c2b0bdf956bbf93cc34b3d2"
+    },
+    {
+      "Name": "PullAutoSaveGame",
+      "Rva": 101437536,
+      "Size": 133,
+      "SHA256": "faba64a8b6cf841e0994d2d59f990cba2eeb0ff5fcebb3ce85445bfb70a66cbb"
+    },
+    {
+      "Name": "ReadAutoSaveHeader",
+      "Rva": 101438144,
+      "Size": 129,
+      "SHA256": "07b47aa92036d8b756cda7b28ee64f023c27bbb598940fc94d2898cc19fb8ff0"
+    },
+    {
+      "Name": "NativeSerializer",
+      "Rva": 76136336,
+      "Size": 442,
+      "SHA256": "e966b73843334f0999f8d2649b75f0f6a2f74dec6433cf3e69f140e582864b46"
+    },
+    {
+      "Name": "NativeLoader",
+      "Rva": 76135264,
+      "Size": 355,
+      "SHA256": "06ca0d8dcf3b975be03447b625e61041ce383108198efc94e2693b8855553ac2"
+    },
+    {
+      "Name": "NativeHeader",
+      "Rva": 76135680,
+      "Size": 298,
+      "SHA256": "dcf5c5afb1bb45608c67ef8d323c89646bc3210d3d7f8e973124520844eee3bb"
+    },
+    {
+      "Name": "HasCurrentAutoSave",
+      "Rva": 101435952,
+      "Size": 275,
+      "SHA256": "c6006d910625764aac27f1699967265a38147ff7d94972753aabb9d54d97b084"
+    },
+    {
+      "Name": "HasSlotAutoSave",
+      "Rva": 101436240,
+      "Size": 261,
+      "SHA256": "b76b8ad5c72fcaefb0faf1954360a54e40c3bb7d40c53fd66d7266d8e0ee8a8e"
+    },
+    {
+      "Name": "NativeChecksum",
+      "Rva": 76124512,
+      "Size": 200,
+      "SHA256": "1de6157c5b028479f7297d7e872e950c7e0b230e3fe2f6e7f937140a9f483600"
+    },
+    {
+      "Name": "SetProgressionData",
+      "Rva": 112982624,
+      "Size": 439,
+      "SHA256": "6f3b333935aa419fd2943941aec55afdd11617f8ee96600a160a09ec5089782b"
+    },
+    {
+      "Name": "CampaignContext",
+      "Rva": 101436992,
+      "Size": 61,
+      "SHA256": "ecbbdfb43a95ef940d86bc9e8c6e50806e4a255e01e5ef93de94ef85e78e74b0"
+    },
+    {
+      "Name": "SharedContext",
+      "Rva": 101437104,
+      "Size": 46,
+      "SHA256": "5d7442e266f399d54035ef55eaf0b03db8855ee5380c0d61eec10a46ad59a271"
+    },
+    {
+      "Name": "GetDDLContext",
+      "Rva": 76126992,
+      "Size": 183,
+      "SHA256": "52d952e2fb739cdc414118aa06945479310e0557a3dbef3ef4e1b55409bdacb7"
+    },
+    {
+      "Name": "NativeCheatForce",
+      "Rva": 74365296,
+      "Size": 33,
+      "SHA256": "e1fad3169dd8c85161faeba8813f3eb5367c5e6ab25460abff51ee7626721155"
+    }
+  ],
+  "Patches": [
+    {
+      "Name": "LocalPush",
+      "Rva": 101437689,
+      "Original": "488d4c2478",
+      "Replacement": "e945000000"
+    },
+    {
+      "Name": "FinishPush",
+      "Rva": 101437795,
+      "Original": "488d4c2478",
+      "Replacement": "e94d010000"
+    },
+    {
+      "Name": "LocalPull",
+      "Rva": 101437551,
+      "Original": "488d4c2440",
+      "Replacement": "e939000000"
+    },
+    {
+      "Name": "LocalHeader",
+      "Rva": 101438159,
+      "Original": "488d4c2440",
+      "Replacement": "e939000000"
+    },
+    {
+      "Name": "HasCurrentAutoSave",
+      "Rva": 101435952,
+      "Original": "40574883ec608b3d2427e704488d4c2470e88af8ffffe895a57dfe84c00f84e800000033c9e876b4ecfb84c00f84d900000033c9e8b7b2ecfb8bc8e840927dfef7d81bd233c983c202e832bb7dfe84c00f84b500000048b89cd53a24128a5f1248895c247848ba796a81299996",
+      "Replacement": "48b811111111111111118b0083f8017c5983f8037f5483c00c486bc07048ba22222222222222224801d08b501083fa0b7738b9040b00000fa3d1732e488b40084885c0742581384c030000751d817828a59758fa75148b405085c0740d3d000090007706b801000000c331c0c3",
+      "Relocations": [
+        {
+          "Offset": 2,
+          "Rva": 183693664
+        },
+        {
+          "Offset": 31,
+          "Rva": 179626520
+        }
+      ]
+    },
+    {
+      "Name": "HasSlotAutoSave",
+      "Rva": 101436240,
+      "Original": "48895c2408574883ec608bf9488d4c2478e86af7ffffe875a47dfe84c00f84d500000033c9e856b3ecfb84c00f84c600000033c9e897b1ecfb8bc8e820917dfef7d81bd233c983c202e812ba7dfe84c00f84a200000048b89cd53a24128a5f12c74424280000000048ba796a81299996aa7b48",
+      "Replacement": "89c885c0750c48b811111111111111118b0083f8017c5983f8037f5483c00c486bc07048ba22222222222222224801d08b501083fa0b7738b9040b00000fa3d1732e488b40084885c0742581384c030000751d817828a59758fa75148b405085c0740d3d000090007706b801000000c331c0c3",
+      "Relocations": [
+        {
+          "Offset": 8,
+          "Rva": 183693664
+        },
+        {
+          "Offset": 37,
+          "Rva": 179626520
+        }
+      ]
+    },
+    {
+      "Name": "RestoreProgressionWriter",
+      "Rva": 112982624,
+      "Original": "e96e1377f9",
+      "Replacement": "48895c2418"
+    },
+    {
+      "Name": "DisableForcedCheatMode",
+      "Rva": 74365320,
+      "Original": "0fb6d0",
+      "Replacement": "33d290"
+    }
+  ]
+}
